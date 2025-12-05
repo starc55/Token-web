@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+    background-color: #090A0E;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+.button-group button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    background: transparent;
+    color: #F5F9FF;
+    border: none;
+    border-radius: 16px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #FFFFFF;
+}
+
+.button-group button:hover .button-group-text {
+    background: linear-gradient(#011636 0%, #167BFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card1-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    background-color: transparent;
+    padding: 24px;
+    border-radius: 32px;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    box-shadow:
+        inset 0px 0px 10px 0px #fff3ff17;
+    transition: transform 0.3s;
+}
+
+.card1:hover {
+    transform: translateY(-10px);
+}
+
+.card1 img {
+    display: flex;
+    width: 107px;
+    height: 107px;
+}
+
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.fade-exit {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 300ms ease, transform 300ms ease;
+}
+
+.title-h2 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #F1F1EF;
+}
+
+.title-p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 27px;
+    font-weight: 500;
+    font-style: normal;
+    color: #AFAFAF;
+}

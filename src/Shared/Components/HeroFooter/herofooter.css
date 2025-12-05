@@ -1,0 +1,141 @@
+.hero-footer {
+    position: relative;
+    margin-top: 10rem;
+}
+
+.hero-footer-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    box-shadow:
+        inset 0px 0px 10px 0px #fff3ff17;
+    border-radius: 16px;
+    padding: 2rem;
+    background-color: transparent;
+}
+
+.hero-footer-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero-footer_btn {
+    width: 130px;
+    height: auto;
+    padding: 10px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid #fff3ff17;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #F5F9FF;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow:
+        inset 0px 0px 10px 0px #fff3ff17;
+}
+
+.hero-footer-icon {
+    position: absolute;
+    width: 300px;
+}
+
+.icon1 {
+    top: -7rem;
+    left: -100px;
+}
+
+.icon2 {
+    bottom: -7rem;
+    right: -10%;
+}
+
+@media (max-width: 1024px) {
+    .hero-footer {
+        margin: 8rem 5% 4rem;
+        padding: 50px 20px;
+    }
+
+    .hero-footer-card {
+        padding: 50px 30px;
+    }
+
+    .hero-footer-icon {
+        width: 220px;
+    }
+
+    .icon1 { top: -8%; left: -12%; }
+    .icon2 { bottom: -8%; right: -12%; }
+}
+
+@media (max-width: 768px) {
+    .hero-footer {
+        margin: 6rem 5% 3rem;
+    }
+
+    .hero-footer-card {
+        padding: 40px 25px;
+        border-radius: 20px;
+    }
+
+    .hero-footer-btn {
+        gap: 16px;
+        margin-top: 32px;
+    }
+
+    .waitlist-btn,
+    .hero-footer_btn {
+        width: 100%;
+        max-width: 280px;
+        height: 52px;
+        font-size: 16px;
+    }
+
+    .hero-footer-icon {
+        width: 180px;
+    }
+
+    .icon1 {
+        top: -5%;
+        left: -15%;
+        transform: translate(-40%, -40%) rotate(-20deg);
+    }
+
+    .icon2 {
+        bottom: -5%;
+        right: -15%;
+        transform: translate(40%, 40%) rotate(25deg);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-footer {
+        margin: 5rem 5% 2rem;
+        padding: 30px 15px;
+    }
+
+    .hero-footer-card {
+        padding: 35px 20px;
+    }
+
+    .hero-footer-icon {
+        width: 140px;
+    }
+
+    .icon1 {
+        top: 0;
+        left: -20%;
+        transform: translate(-50%, -50%) rotate(-25deg);
+    }
+
+    .icon2 {
+        bottom: 0;
+        right: -20%;
+        transform: translate(50%, 50%) rotate(30deg);
+    }
+}

@@ -1,0 +1,21 @@
+.animated-text {
+  font-family: 'TT Interfaces', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  
+  /* Gradient ranglar bilan ishlash uchun */
+  background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff, #ff00ff, #ffa500);
+  background-size: 1000% 1000%;
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: gradientShift 10s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

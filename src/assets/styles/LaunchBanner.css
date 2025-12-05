@@ -1,0 +1,61 @@
+.launch-banner {
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    text-align: center;
+    background: url("../images/LaunchBannerBG.png") center/cover repeat,
+        linear-gradient(90deg, rgba(0, 195, 255, 0.459), rgba(122, 248, 255, 0.737), rgba(0, 195, 255, 0.477));
+    background-blend-mode: overlay;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.banner-text {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    background: linear-gradient(90deg,
+            #011636 0%,
+            #167BFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s infinite alternate;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+/* RESPONSIVE – faqat qoʻshildi, dizayn oʻzgarmadi */
+@media (max-width: 768px) {
+    .launch-banner {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+    
+    .banner-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .launch-banner {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+    
+    .banner-text {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
