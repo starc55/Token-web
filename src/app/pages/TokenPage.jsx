@@ -2,7 +2,7 @@ import React from "react";
 import LaunchBanner from "../../Core/Notifications/LaunchBanner";
 import Navber from "../../Shared/Components/Navbar/Navbar";
 import NewCard from "../../Shared/Components/NewCard/NewCard";
-import Herofooter from "../../Shared/Components/HeroFooter/Herofooter";
+import Temp from "../../Shared/Components/HeroFooter/Temp";
 import Footer from "../../Shared/Components/Footer/Footer";
 
 const TokenPage = () => {
@@ -11,7 +11,7 @@ const TokenPage = () => {
       <LaunchBanner text="TOKEN LIVE! BUY NOW!" />
       <Navber />
       <NewCard />
-      <Herofooter />
+      <Temp />
       <Footer />
     </div>
   );

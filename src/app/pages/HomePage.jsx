@@ -5,7 +5,7 @@ import CardStyle from "../../Shared/Components/Cardinfo/CardStyle.jsx";
 import SlideBrand from "../../Shared/Components/Slide/SlideBrand.jsx";
 import Home from "./Home.jsx";
 import UpgradeCards from "./UpgradeCard.jsx";
-import Herofooter from "../../Shared/Components/HeroFooter/Temp.jsx";
+import Temp from "../../Shared/Components/HeroFooter/Temp.jsx";
 import Footer from "../../Shared/Components/Footer/Footer.jsx";
 // import About from "./About.jsx";
 
@@ -17,7 +17,7 @@ const HomePage = () => {
       {/* <About /> */}
       <SlideBrand title="Our services" subtitle="Integrated with"/>
       <CardStyle />
-      <Herofooter />
+      <Temp />
       <Footer />
       {/* <CoomingSoon /> */}
     </div>
