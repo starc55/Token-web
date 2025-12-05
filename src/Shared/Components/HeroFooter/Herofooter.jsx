@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitle from "../Title/SectionTitle";
-import "./herofooter.css";
+import "./Herofooter.css";
 import coin1 from "../../../assets/images/herofootercoin1.svg";
 import coin2 from "../../../assets/images/herofootercoin2.svg";
 import { motion } from "framer-motion";
